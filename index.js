@@ -83,7 +83,7 @@ run().catch(console.dir);
 
 
 app.get("/", (req, res) => {
-  res.send("doctors portal server side ");
+  res.send("doctors portal server side running ");
 });
 
 app.listen(port, () => {
